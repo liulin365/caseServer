@@ -11,7 +11,6 @@ import java.util.Map;
 
 public class ExcelResult {
 	private ExcelReader excel;
-
 	/*
 	 * 统计结果文件中的内容，生成测试报告，输入参数为测试报告文件路径、及测试开始时间。
 	 */

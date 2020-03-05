@@ -17,7 +17,6 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelReader {
-
 	/*
 	 * 完成对excel文件的读取
 	 * 
@@ -25,7 +24,6 @@ public class ExcelReader {
 	 * close完成文件读取，释放资源 readNextLine读取当前行，并将焦点移动到下一行 readLine读取指定行
 	 * getCellValue针对单元格内容不同格式进行读取
 	 */
-
 	// 用于读取excel中日期类型的单元格，指定日期格式
 	private SimpleDateFormat fmt = new SimpleDateFormat("yyyy-MM-dd");
 	// xlsx格式的工作簿
